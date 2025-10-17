@@ -1,0 +1,229 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body { 
+    font-family: "IBM Plex Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    background: #ffffff;
+    margin: 0px;
+    background-color: #000000; /* Used if the image is unavailable */
+}
+
+.kaleidoscope {
+    position: fixed;
+    /* background: transparent; */
+    overflow: hidden;
+    background-image: url('fashion show poster blank 2.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+#kaleidoscope-1 {
+    top: 0;
+    bottom: 50vh;
+    left: 0;
+    right: 50%;
+}
+
+#kaleidoscope-2 {
+    top: 0;
+    bottom: 50vh;
+    left: 50%;
+    right: 0;
+}
+
+#kaleidoscope-3 {
+    top: 50vh;
+    bottom: 0;
+    left: 0;
+    right: 50%;
+}
+
+#kaleidoscope-4 {
+    top: 50vh;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+}
+
+.kaleidoscope-inner {
+    position: relative;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-image: url('fashion-show-web-kaleid.jpg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    transform: rotate(30deg);
+}
+
+#kaleidoscope-inner-2 {
+    transform: scaleX(-1) rotate(30deg);
+}
+
+#kaleidoscope-inner-3 {
+    transform: scaleY(-1) rotate(30deg);
+}
+
+#kaleidoscope-inner-4 {
+    transform: scaleX(-1) scaleY(-1) rotate(30deg);
+}
+
+h1 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+
+a {
+    color: white;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 5px;
+}
+
+#navigation { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #000000;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+#navigation { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #000000;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+#nav-link-wrapper {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+#navigation a {
+    display: inline-block;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #d3fc42;
+    font-size: 1.2rem;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.nav-here {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+
+.nav-there {
+    text-decoration: none;
+}
+
+#nav-logo {
+    width: 237px;
+    height: auto
+}
+
+#top {
+    width: 100%;
+    height: 100vh;
+}
+
+.top-text {
+    position: absolute;
+    color: #dcfe76;
+    mix-blend-mode: hard-light;
+    font-size: 7rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#top-text-1 {
+    top: 50px;
+    left: 80px;
+}
+
+#top-text-2 {
+    bottom: 30px;
+    right: 80px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: auto; 
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* mix-blend-mode: hard-light; */
+}
+
+.section {
+    width: 100%;
+    max-width: 1000px; 
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* color: #dcfe76; */
+    color: #d3fc42;
+}
+
+.border {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: #000000;
+}
+
+#border-left {
+    left: 0;
+    width: 40px;
+}
+
+#border-right {
+    right: 0;
+    width: 40px;
+}
+
+#border-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #000000;
+}
