@@ -16,12 +16,8 @@ body {
 
 .kaleidoscope {
     position: fixed;
-    /* background: transparent; */
+    background: #000000;
     overflow: hidden;
-    background-image: url('fashion show poster blank 2.jpg');
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
 }
 
 #kaleidoscope-1 {
@@ -53,12 +49,12 @@ body {
 }
 
 .kaleidoscope-inner {
-    position: relative;
+    position: absolute;
     top: -50%;
     left: -50%;
     width: 200%;
     height: 200%;
-    background-image: url('fashion-show-web-kaleid.jpg');
+    background-image: url('fashion-show-web-kaleid-bkgd.jpg');
     background-position: center;
     background-repeat: repeat;
     background-size: contain;
@@ -74,6 +70,31 @@ body {
 }
 
 #kaleidoscope-inner-4 {
+    transform: scaleX(-1) scaleY(-1) rotate(30deg);
+}
+
+.kaleidoscope-inner-flowers {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-image: url('fashion-show-web-kaleid-flowers.png');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    transform: rotate(30deg);
+}
+
+#kaleidoscope-inner-flowers-2 {
+    transform: scaleX(-1) rotate(30deg);
+}
+
+#kaleidoscope-inner-flowers-3 {
+    transform: scaleY(-1) rotate(30deg);
+}
+
+#kaleidoscope-inner-flowers-4 {
     transform: scaleX(-1) scaleY(-1) rotate(30deg);
 }
 
