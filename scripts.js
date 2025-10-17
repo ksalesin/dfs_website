@@ -20,22 +20,15 @@ window.addEventListener('scroll', () => {
         if (i == 0) {
             // Apply the rotation to the element's transform style
             element1.style.transform = `rotate(${rotationAngle1}deg)`;
-        } else if (i == 1) {
-            element1.style.transform = `scaleX(-1) rotate(${rotationAngle1}deg)`;
-        } else if (i == 2) {
-            element1.style.transform = `scaleY(-1) rotate(${rotationAngle1}deg)`;
-        } else {
-            element1.style.transform = `scaleX(-1) scaleY(-1) rotate(${rotationAngle1}deg)`;
-        }
-
-        if (i == 0) {
-            // Apply the rotation to the element's transform style
             element2.style.transform = `rotate(${rotationAngle2}deg)`;
         } else if (i == 1) {
+            element1.style.transform = `scaleX(-1) rotate(${rotationAngle1}deg)`;
             element2.style.transform = `scaleX(-1) rotate(${rotationAngle2}deg)`;
         } else if (i == 2) {
+            element1.style.transform = `scaleY(-1) rotate(${rotationAngle1}deg)`;
             element2.style.transform = `scaleY(-1) rotate(${rotationAngle2}deg)`;
         } else {
+            element1.style.transform = `scaleX(-1) scaleY(-1) rotate(${rotationAngle1}deg)`;
             element2.style.transform = `scaleX(-1) scaleY(-1) rotate(${rotationAngle2}deg)`;
         }
     }
