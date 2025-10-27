@@ -114,6 +114,12 @@ a {
     text-underline-offset: 5px;
 }
 
+.quote {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-style: italic;
+}
+
 #navigation { 
     position: fixed;
     top: 0;
