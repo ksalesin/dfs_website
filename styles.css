@@ -10,6 +10,7 @@ body {
     font-size: 1.2rem;
     line-height: 1.7;
     background: #ffffff;
+    color: #d3fc42;
     margin: 0px;
     background-color: #000000; /* Used if the image is unavailable */
 }
@@ -139,6 +140,7 @@ a {
     padding-right: 50px;
     padding-left: 50px;
     background-color: #000000;
+    z-index: 102;
     /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
@@ -184,7 +186,8 @@ a {
 
 .top-text {
     position: absolute;
-    color: #dcfe76;
+    /* color: #dcfe76; */
+    color: #dcf788;
     mix-blend-mode: hard-light;
     font-size: 9rem;
     font-weight: 500;
@@ -202,50 +205,73 @@ a {
     right: 80px;
 }
 
+#scroll-text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    z-index: 101;
+}
+
+#scroll-text-left {
+    position: absolute;
+    width: 35px;
+    bottom: 40px;
+    left: 0;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    z-index: 101;
+}
+
+.down-arrow {
+    display: inline-block;
+    transform: scaleY(-1);
+}
+
 .container {
     position: relative;
     width: 100%;
     height: auto; 
     margin: 0;
     background-color: rgba(0, 0, 0, 0.7);
-    /* mix-blend-mode: hard-light; */
 }
 
 .section {
     width: 100%;
     max-width: 1000px; 
-    min-height: 100vh;
+    min-height: calc(100vh - 200px);
     margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
-    /* color: #dcfe76; */
-    color: #d3fc42;
 }
 
 .border {
     position: fixed;
-    top: 0;
-    bottom: 0;
     background-color: #000000;
+    z-index: 100;
 }
 
 #border-left {
+    top: 0;
+    bottom: 0;
     left: 0;
     width: 40px;
 }
 
 #border-right {
+    top: 0;
+    bottom: 0;
     right: 0;
     width: 40px;
 }
 
 #border-bottom {
-    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     height: 40px;
-    background-color: #000000;
 }
 
 .person {
