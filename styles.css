@@ -274,6 +274,28 @@ a {
     height: 40px;
 }
 
+.centered {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #d3fc42;
+    color: black;
+    box-shadow: -8px -8px 0px #6b42fc;
+    text-decoration: none;
+    transform: translateX(-20px);
+}
+
+.button:hover {
+    transform: translateX(-15px) translateY(5px);
+    background-color: #d3fc42;
+    box-shadow: -18px -18px 0px #6b42fc;
+}
+
 .person {
     display: inline-block;
     box-sizing: border-box;
