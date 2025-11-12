@@ -23,27 +23,27 @@ body {
 
 #kaleidoscope-1 {
     top: 0;
-    bottom: 50lvh;
+    bottom: 50svh;
     left: 0;
     right: 50%;
 }
 
 #kaleidoscope-2 {
     top: 0;
-    bottom: 50lvh;
+    bottom: 50svh;
     left: 50%;
     right: 0;
 }
 
 #kaleidoscope-3 {
-    top: 50lvh;
+    top: 50svh;
     bottom: 0;
     left: 0;
     right: 50%;
 }
 
 #kaleidoscope-4 {
-    top: 50lvh;
+    top: 50svh;
     bottom: 0;
     left: 50%;
     right: 0;
@@ -181,7 +181,7 @@ a {
 
 #top {
     width: 100%;
-    height: 100lvh;
+    height: 100svh;
     overflow: hidden;
 }
 
