@@ -167,14 +167,29 @@ a {
     letter-spacing: 1px;
 }
 
+#navigation a:hover {
+    color: white;
+}
+
 .nav-here {
     text-decoration: underline;
     text-underline-offset: 6px;
-    text-decoration-thickness: 2px;
+    text-decoration-thickness: 1.5px;
 }
 
 .nav-there {
     text-decoration: none;
+}
+
+.nav-there img {
+    position: relative;
+    top: 7px;
+    height: 30px;
+    width: auto;
+}
+
+.nav-there img:hover {
+    filter: grayscale(100%) brightness(200%);
 }
 
 #nav-logo {
