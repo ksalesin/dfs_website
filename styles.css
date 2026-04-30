@@ -317,8 +317,15 @@ a {
     box-shadow: -18px -18px 0px var(--purple);
 }
 
+.person-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
 .person {
-    display: inline-block;
+    /* display: inline-block; */
     box-sizing: border-box;
     width: 32%;
     padding: 50px;
@@ -329,6 +336,10 @@ a {
     height: auto;
     border-radius: 50%;
     filter: grayscale(100%) contrast(110%);
+}
+
+.info {
+    font-style: italic;
 }
 
 @media (max-width: 768px) {
