@@ -188,6 +188,11 @@ a {
     width: auto;
 }
 
+.nav-icon {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
 .nav-there img:hover {
     filter: grayscale(100%) brightness(200%);
 }
